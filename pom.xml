@@ -15,6 +15,7 @@
 
   <properties>
     <platform.version> 4.0.1.2</platform.version>
+      <android.platform>15</android.platform>
   </properties>
 
   <dependencyManagement>
@@ -56,6 +57,11 @@
           <groupId>com.jayway.maven.plugins.android.generation2</groupId>
           <artifactId>android-maven-plugin</artifactId>
           <version>3.3.2</version>
+            <configuration>
+                <sdk>
+                    <platform>${android.platform}</platform>
+                </sdk>
+            </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
