@@ -13,7 +13,7 @@ public class HelloAndroidActivityTest extends ActivityInstrumentationTestCase2<H
         HelloAndroidActivity activity = getActivity();
         assertNotNull(activity);
     }
-
+    //TODO remove this
     public void testShouldPass() {
         assertTrue(true);
     }
