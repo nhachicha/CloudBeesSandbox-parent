@@ -19,8 +19,8 @@
   </modules>
 
   <properties>
-    <platform.version> 4.0.1.2</platform.version>
-      <android.platform>15</android.platform>
+    <platform.version>2.3.3</platform.version>
+      <android.platform>10</android.platform>
       <java.version>1.6</java.version>
       <android-maven-plugin.version>3.2.0</android-maven-plugin.version>
   </properties>
